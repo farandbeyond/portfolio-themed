@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <!-- Meta tag which helps ensure page adapts to various screen sizes (responsive) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scott McCrindle | Portfolio</title>
+    <title>Connor Hadley | Portfolio</title>
     <!-- Icon for browser tab and favourites -->
     <link rel="icon" href="img/Game_controller_with_wire_Pinhead_icon.svg">
     <!-- STEP 1: Download this repository (you've done that if you're reading this) -->
@@ -43,7 +43,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#projects" role="button" aria-expanded="false">Projects</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#project-1">Urban Chaos</a></li>
+                                <li><a class="dropdown-item" href="#project-1">Stranded on Lingas</a></li>
                                 <li><a class="dropdown-item" href="#project-2">UAP Encounter</a></li>
                             </ul>
                         </li>                       
@@ -66,13 +66,12 @@
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <figure class="m-0 position-relative">
-                            <img src="https://picsum.photos/id/1067/1920/1080" class="d-block w-100 hero-carousel-img"
+                            <img src="img/SoL Cover.png" class="d-block w-100 hero-carousel-img"
                                 alt="Urban Chaos - Screenshot">
                             <figcaption
                                 class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-4 rounded-3 text-start mb-4 m-0">
-                                <h2 class="text-info">Urban Chaos</h2>
-                                <p class="lead text-light d-md-block">Lead Systems & Combat Designer — Built in Unreal
-                                    Engine 5.</p>
+                                <h2 class="text-info">Stranded on Lingas</h2>
+                                <p class="lead text-light d-md-block">Lead Programmer — Built in Unity 6.4</p>
                                 <a href="#project-1" class="btn btn-info fw-bold me-2">Jump to Details</a>
                             </figcaption>
                         </figure>
@@ -127,20 +126,20 @@
                 <!-- Project 1 -->
                 <div class="col-md-6" id="project-1">
                     <div class="card bg-dark h-100 shadow-sm">
-                        <img src="https://picsum.photos/id/1067/800/450" class="card-img-top" alt="Project 1 Media">
+                        <img src="img/SoL Cover.png" class="card-img-top" alt="Project 1 Media">
                         <div class="card-body">
-                            <h3 class="card-title text-info">Urban Chaos</h3>
-                            <p class="card-text text-secondary">Unreal Engine 5 | C++ & Blueprints | Team of 4</p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Designed core
-                                combat stamina loop, boss AI behavior trees, and spatial weapon hitboxes.</p>
+                            <h3 class="card-title text-info">Stranded on Lingas</h3>
+                            <p class="card-text text-secondary"> Unity 6.4 | C# | Team of 4</p>
+                            <p class="card-text">Created for Ludum Dare 59 - Theme: Signal. Programmed dialogue system, radio interface, radio call system, monster appearance mechanic.</p>
                             <ul>
-                                <li>Implemented dynamic enemy scaling system.</li>
-                                <li>Authored full Game Design Document (GDD).</li>
+                                <li>Made in 72 hours from scratch.</li>
+                                <li>Fully custom Dialogue module, with story flags to track progression, and sound effects tied to lines of dialogue.</li>
+                                <li>Radio interface tied in with Dialogue module, activating dialogue based on story flags and radio settings.</li>
                             </ul>
                         </div>
                         <div class="card-footer bg-transparent border-0 pb-3">
-                            <a href="#" class="btn btn-outline-info btn-sm">GitHub Repo</a>
-                            <a href="#" class="btn btn-outline-light btn-sm">Download GDD (PDF)</a>
+                            <a href="https://github.com/farandbeyond/LudumDare59" class="btn btn-outline-info btn-sm">GitHub Repo</a>
+                            <a href="https://4farandbeyond.itch.io/emberlight-ludum-dare-59" class="btn btn-outline-light btn-sm">Play in Browser (Itch.io)</a>
                         </div>
                     </div>
                 </div>
@@ -169,6 +168,7 @@
             </div>            
         </section>
 
+        <!--
         <section id="playable" class="my-5">
             <h2 class="border-bottom border-secondary pb-2 mb-4">Playable Build</h2>
             <div class="card bg-dark shadow-lg p-3 border border-secondary">
@@ -177,15 +177,16 @@
                     <p class="card-text text-secondary mb-3">
                         Open-source version of the classic Breakout arcade hit built with Phaser.
                     </p>
-                    <!-- Responsive Bootstrap Iframe Wrapper -->
+                    <!- - Responsive Bootstrap Iframe Wrapper - ->
                     <div class="ratio ratio-4x3 rounded overflow-hidden border border-secondary arcade-bg">
-                        <!-- Mozilla / Phaser 3 Open Source Content Kit Demo -->
-                        <iframe src="https://end3r.github.io/Gamedev-Phaser-Content-Kit/demos/lesson16.html"
+                        <!- - Mozilla / Phaser 3 Open Source Content Kit Demo - ->
+                        <iframe src="https://farandbeyond.github.io/Offgrid_Javascript/index.html"
                             title="Phaser Breakout Game Demo" allowfullscreen loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
+    -->
 
         <section id="trailer" class="my-5">
             <h2 class="border-bottom border-secondary pb-2 mb-4">Gameplay Trailer</h2>
@@ -193,7 +194,7 @@
                 <div class="card-body">
                     <h3 class="card-title mb-2 text-info">Ashes of Asterra - Trailer</h3>
                     <p class="card-text text-secondary mb-3">
-                        Creative Commons gameplay footage demonstration for video embedding workflows.
+                        Trailed for Ashes of Asterra, by Emberdrake Studios (Team of 8)
                     </p>
                     <div class="ratio ratio-16x9 rounded overflow-hidden border border-secondary">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/TfvgrwsqwcE" title="Ashes of Asterra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -201,6 +202,28 @@
                 </div>
             </div>
         </section>
+
+        <section id="sideprojects" class="my-5">
+            <h2 class="border-bottom border-secondary pb-2 mb-4">Side Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6 card bg-dark  shadow-lg p-3 border border-secondary">
+                    <div class="card-body">
+                        <h3 class="card-title mb-2 text-info">Offset Grid Map Builder</h3>
+                        <img src="img/OffgridImage.png" class="card-img-top w-75" alt="Project 1 Media">
+                        <a href="https://farandbeyond.github.io/GreenhouseBoardGame/" class="btn btn-outline-light btn-sm">Try in Browser (Github Pages)</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 card bg-dark  shadow-lg p-3 border border-secondary">
+                    <div class="card-body">
+                        <h3 class="card-title mb-2 text-info">Topsoil Turmoil Simulator</h3>
+                        <img src="img/TopsoilTurmoilBoard.png" class="card-img-top w-75" alt="Project 1 Media">
+                        <a href="https://farandbeyond.github.io/GreenhouseBoardGame/" class="btn btn-outline-light btn-sm">Play in Browser (Github Pages)</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
 
         <section id="skills" class="my-5">
             <h2 class="border-bottom border-secondary pb-2 mb-4">Technical & Design Skills</h2>
@@ -252,13 +275,12 @@
         <div class="container text-center">
             <p class="mb-2">Get in touch for game jams, collaborations, or internships!</p>
             <div class="mb-3">
-                <a href="mailto:me@mydomain.com" class="btn btn-primary btn-sm me-2">Email Me</a>
-                <a href="#" class="btn btn-outline-light btn-sm me-2">GitHub</a>
-                <a href="#" class="btn btn-outline-light btn-sm me-2">itch.io</a>
-                <a href="#" class="btn btn-outline-light btn-sm">LinkedIn</a>
+                <a href="mailto:connorjh4@gmail.com" class="btn btn-primary btn-sm me-2">Email Me</a>
+                <a href="https://github.com/farandbeyond" class="btn btn-outline-light btn-sm me-2">GitHub</a>
+                <a href="https://4farandbeyond.itch.io/" class="btn btn-outline-light btn-sm me-2">itch.io</a>
+                <a href="https://www.linkedin.com/in/connor-hadley-8b67b214a/" class="btn btn-outline-light btn-sm">LinkedIn</a>
             </div>
-            <small class="text-secondary">&copy; 2026 Your Name. Built with Bootstrap 5 & Hosted on GitHub
-                Pages.</small>
+            <small class="text-secondary">&copy; 2026 Connor Hadley. Built with Bootstrap 5 & Hosted on GitHub Pages.</small>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
