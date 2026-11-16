@@ -9,10 +9,10 @@
   --bs-body-line-height: 1.6;
  
     /* Primary and secondary colours */
-  --bs-primary: #620b68;
-  --bs-primary-rgb: 98, 11, 104;
-  --bs-secondary: #8c8c8c;
-  --bs-secondary-rgb: 140, 140, 140; 
+  --bs-primary: #86106A;
+  --bs-primary-rgb: 134, 16, 106;
+  --bs-secondary: #Af4B9E;
+  --bs-secondary-rgb: 175, 75, 158;
 
     /* Default text colour and body background colour */
   --bs-body-color: #8C8C8C;
@@ -21,8 +21,8 @@
     /* Overriding other Bootstrap colour classes */
   --bs-dark: #000000;
   --bs-dark-rgb: 0, 0, 0;
-  --bs-light: #faadff;
-  --bs-light-rgb: 250, 173, 255;
+  --bs-light: #EFEFBA;
+  --bs-light-rgb: 239, 239, 186; 
   --bs-info: #8c8c8c;
   --bs-info-rgb: 140, 140, 140;
 }
@@ -57,6 +57,7 @@ h1, h2, h3, h4, h5, h6,
 	height: 450px;
 	object-fit: cover;
 }
+
 
 /* Embedded playable game background */
 .arcade-bg {
